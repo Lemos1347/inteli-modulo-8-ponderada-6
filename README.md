@@ -2,6 +2,7 @@
 
 Esse repositório contém os códigos para a seguinte atividade:
 
+> [!NOTE]
 > Atividade em sala de aula para implementar um perceptron capaz de ser treinado para reproduzir o comportamento das seguintes portas lógicas:
 >
 > - AND
