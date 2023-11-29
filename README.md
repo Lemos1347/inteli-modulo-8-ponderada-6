@@ -9,7 +9,26 @@ Esse repositório contém os códigos para a seguinte atividade:
 > - NAND
 > - XOR
 
-# Implementação de um Perceptron em Python
+# Como rodar
+
+> [!IMPORTANT]
+> Para rodar o código é necessário ter o Python 3 instalado na máquina.
+
+Para rodar o código, primeiro é necessário baixar as bibliotecas necessárias. Para isso, basta rodar o seguinte comando no terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+Após isso, basta rodar o seguinte comando no terminal:
+
+```bash
+python3 perceptron.py
+```
+
+A partir de então, você verá em seu terminal o resultado de cada perceptron para cada porta lógica.
+
+# Implementação do Perceptron em Python
 
 O perceptron é um dos blocos de construção fundamentais da aprendizagem de máquina, especialmente no campo das redes neurais. Aqui vou detalhar a implementação de um perceptron de camada única em Python, sua aplicação para resolver operações lógicas básicas e explicar por que algumas operações não podem ser resolvidas com esta abordagem.
 
@@ -27,7 +46,7 @@ A classe `Perceptron` é definida com os seguintes atributos e métodos:
 
 ## Aplicação em Operações Lógicas
 
-O perceptron foi treinado e testado nas operações lógicas AND, OR e NAND. Os resultados foram como esperados para essas operações. No entanto, quando aplicado à operação XOR, o perceptron não conseguiu aprender corretamente a relação.
+O perceptron foi treinado e testado nas operações lógicas AND, OR e NAND. Os resultados foram como esperados para todas as operações, exceto quando aplicado à operação XOR. Nesse caso, o perceptron não conseguiu aprender corretamente a relação.
 
 ## Limitação na Operação XOR
 
